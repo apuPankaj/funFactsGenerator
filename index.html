@@ -1,18 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Experiment</title>
+    <title>Fun facts</title>
     <link rel="shortcut icon" type="img/jpg" href="images/RWE ICON.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Hello world!</h1>
-    <p>Hope it works</p>
-    <script src="script.js">
-    </script>
+    <div class="fact-container" id="fact-cantainer">
+        <!-- Fun Facts -->
+        <div class="fact-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="fact"></span>
+        </div>
+        <!-- Buttton -->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Twit This!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button id="new-fact">Another Fun Fact</button>
+        </div>
+    </div>
+    <div class="loader" id="loader"></div>
+    <script src="script.js"></script>
 </body>
+
 </html>
